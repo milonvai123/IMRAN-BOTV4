@@ -21,10 +21,10 @@ module.exports.config = {
 
 module.exports.run = async ({ api, event, args }) => {
   const adminInfo = {
-    name: "Imran Ahmed",
+    name: "Milon Ahmed",
     city: "Dhaka, Bangladesh",
     work: "Web Developer & Bot Creator",
-    whatsapp: "wa.me/+8801689903267",
+    whatsapp: "wa.me/+8801912603270",
     facebook: "https://facebook.com/Imran.Ahmed099"
   };
 
@@ -35,11 +35,11 @@ module.exports.run = async ({ api, event, args }) => {
   const info = `
 ✦ 𝗬𝗨𝗠𝗜𝗞𝗔 𝗕𝗢𝗧 𝗔𝗗𝗠𝗜𝗡 𝗜𝗡𝗙𝗢 ✦
 
-❖ 𝗡𝗮𝗺𝗲: 『 ${adminInfo.name} 』
-❖ 𝗟𝗼𝗰𝗮𝘁𝗶𝗼𝗻: 『 ${adminInfo.city} 』
-❖ 𝗣𝗿𝗼𝗳𝗲𝘀𝘀𝗶𝗼𝗻: 『 ${adminInfo.work} 』
-❖ 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽: 『 ${adminInfo.whatsapp} 』
-❖ 𝗙𝗮𝗰𝗲𝗯𝗼𝗼𝗸: 『 ${adminInfo.facebook} 』
+❖ 𝗡𝗮𝗺𝗲: 『 Milon Hasan 』
+❖ 𝗟𝗼𝗰𝗮𝘁𝗶𝗼𝗻: 『 Daka 』
+❖ 𝗣𝗿𝗼𝗳𝗲𝘀𝘀𝗶𝗼𝗻: 『 prbashi 』
+❖ 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽: 『 8801912603270 』
+❖ 𝗙𝗮𝗰𝗲𝗯𝗼𝗼𝗸: 『 https://www.facebook.com/share/1ahez8BYyn/ 』
 
 ╔════════ • ✤ • ════════╗
 ✦ 𝗕𝗢𝗧 𝗜𝗡𝗙𝗢𝗥𝗠𝗔𝗧𝗜𝗢𝗡 ✦
@@ -48,7 +48,7 @@ module.exports.run = async ({ api, event, args }) => {
 ❖ 𝗩𝗲𝗿𝘀𝗶𝗼𝗻: 『 ${botVersion} 』
 ❖ 𝗨𝗽𝘁𝗶𝗺𝗲: 『 ${uptime} 』
 ❖ 𝗖𝗼𝗱𝗲𝗿: 『 ${adminInfo.name} 』
-❖ 𝗙𝗿𝗮𝗺𝗲𝘄𝗼𝗿𝗸: 『 IMRAN-API 』
+❖ 𝗙𝗿𝗮𝗺𝗲𝘄𝗼𝗿𝗸: 『 Milon-API 』
 `.trim();
 
   const imagePath = __dirname + "/cache/admin.png";
